@@ -1,0 +1,15 @@
+include ../banner/banner
+//- include ../logo/logo
+//- include ../info-counter/info-counter
+//- include ../top-menu/top-menu
+//- include ../search-form/search-form
+
+mixin header()
+	+banner
+	+b.header&attributes(attributes)
+		//- +logo
+		//- +top-menu
+		+e.H2.cta_primary: | RESERVE A BOAT NOW!
+		+e.H3.cta_secondary: | and set your sails into paradise!
+		//- +search-form
+		//- +info-counter

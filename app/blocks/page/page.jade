@@ -1,3 +1,6 @@
+include ../header/header
 mixin page()
 	+b('body').page&attributes(attributes)
+		// Header Section
+		+header
 		+scripts(['app.min.js'])
