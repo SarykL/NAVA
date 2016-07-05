@@ -1,10 +1,9 @@
 include ../logo/logo
-//- include ../button/button
 
 mixin top-menu()
 	+b.top-menu&attributes(attributes)
 		+logo
+		+e.BUTTON(type='button').sign-up: | Sign up
 		+e.UL.list
 			+e.item: +e.A(href='/').link: | Top destination
 			+e.item: +e.A(href='/').link: | Add your boat
-		//- +button().sign-up

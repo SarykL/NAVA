@@ -1,0 +1,4 @@
+mixin search-form()
+	+b.FORM.search-form&attributes(attributes)
+		+e.INPUT(type='text' placeholder='What is your DESTINATION, SAILOR?').request
+		+e.BUTTON(type='submit').btn: | Find a boat

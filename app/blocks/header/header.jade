@@ -1,13 +1,14 @@
 include ../banner/banner
 include ../top-menu/top-menu
+include ../search-form/search-form
 //- include ../info-counter/info-counter
-//- include ../search-form/search-form
 
 mixin header()
 	+banner
 	+b.header&attributes(attributes)
 		+top-menu
-		+e.H2.cta_primary: | RESERVE A BOAT NOW!
-		+e.H3.cta_secondary: | and set your sails into paradise!
-		//- +search-form
-		//- +info-counter
+		.container
+			+e.H2.cta_primary: | RESERVE A BOAT NOW!
+			+e.H3.cta_secondary: | and set your sails into paradise!
+			+search-form
+			//- +info-counter
