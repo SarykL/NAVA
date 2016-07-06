@@ -1,0 +1,48 @@
+[
+	{
+		"title": "Figueira da Foz",
+		"primary": "Portugal",
+		"secondary": "",
+		"href": "#",
+		"img": "//placehold.it/770x360",
+		"label": "730",
+		"view": "wide"
+	},
+	{
+		"title": "Ibiza",
+		"primary": "Spain",
+		"secondary": "",
+		"href": "#",
+		"img": "//placehold.it/369x360",
+		"label": "621",
+		"view": "small"
+
+	},
+	{
+		"title": "Palma de Mallorca",
+		"primary": "Spain",
+		"secondary": "",
+		"href": "#",
+		"img": "//placehold.it/369x360",
+		"label": "543",
+		"view": "small"
+	},
+	{
+		"title": "Portofino",
+		"primary": "Italy",
+		"secondary": "",
+		"href": "#",
+		"img": "//placehold.it/369x360",
+		"label": "495",
+		"view": "small"
+	},
+	{
+		"title": "Port Hercules",
+		"primary": "Monaco",
+		"secondary": "",
+		"href": "#",
+		"img": "//placehold.it/369x360",
+		"label": "402",
+		"view": "small"
+	}
+]
