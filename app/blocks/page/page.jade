@@ -1,6 +1,7 @@
 include ../header/header
 include ../content-section/content-section
 include ../destinations-article/destinations-article
+include ../boats-article/boats-article
 include ../button/button
 include ../cta/cta
 
@@ -24,6 +25,7 @@ mixin page()
 					"text": "Make money with your boat"})._cta._filled
 			// 'Boats review' Section
 			+content-section({"title": "FEATURED BOATS"}).boats-section
+				block boats
 				
 		+scripts(['app.min.js'])
 			

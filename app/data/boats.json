@@ -1,0 +1,40 @@
+[
+	{
+		"title": "Delphia 47",
+		"primary": "Gdańsk, Poland",
+		"secondary": "8 Berths",
+		"href": "#",
+		"img": "//placehold.it/575x340",
+		"label": "€580 / day ",
+		"view": "half"
+	},
+	{
+		"title": "Sense 55",
+		"primary": "Portofino, Italy",
+		"secondary": "12 Berths",
+		"href": "#",
+		"img": "//placehold.it/575x340",
+		"label": "€950 / day ",
+		"view": "half"
+
+	},
+	{
+		"title": "Crusier 51",
+		"primary": "Palma de Mallorca, Spain",
+		"secondary": "10 Berths",
+		"href": "#",
+		"img": "//placehold.it/575x340",
+		"label": "€820 / day ",
+		"view": "half"
+
+	},
+	{
+		"title": "Crusier 41S",
+		"primary": "Lisbon, Portugal",
+		"secondary": "8 Berths",
+		"href": "#",
+		"img": "//placehold.it/575x340",
+		"label": "€400 / day ",
+		"view": "half"
+	}
+]

@@ -1,5 +1,5 @@
 include ../tile-item/tile-item
 
-mixin tile-grid(destination)
+mixin tile-grid(file)
 	+b.tile-grid&attributes(attributes)
-		+tile-item(getData('destinations'))
+		+tile-item(getData(file.name))
