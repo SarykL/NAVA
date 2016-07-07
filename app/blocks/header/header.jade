@@ -4,11 +4,11 @@ include ../search-form/search-form
 include ../info-counter/info-counter
 
 mixin header()
-	+banner
+	+banner({
+		"primary": "RESERVE A BOAT NOW!",
+		"secondary": "and set your sails into paradise!"})._header
 	+b.header&attributes(attributes)
 		+top-menu
 		.container
-			+e.H2.cta_primary: | RESERVE A BOAT NOW!
-			+e.H3.cta_secondary: | and set your sails into paradise!
 			+search-form
 			+info-counter
