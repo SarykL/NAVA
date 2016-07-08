@@ -4,6 +4,7 @@ include ../destinations-article/destinations-article
 include ../boats-article/boats-article
 include ../button/button
 include ../cta/cta
+include ../footer/footer
 
 
 
@@ -26,6 +27,8 @@ mixin page()
 			// 'Boats review' Section
 			+content-section({"title": "FEATURED BOATS"}).boats-section
 				block boats
+		// Footer
+		+footer
 				
 		+scripts(['app.min.js'])
 			

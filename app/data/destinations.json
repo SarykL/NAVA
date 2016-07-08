@@ -4,7 +4,7 @@
 		"primary": "Portugal",
 		"secondary": "",
 		"href": "#",
-		"img": "//placehold.it/770x360",
+		"img": "/assets/images/destinations/figueira-da-foz.jpg",
 		"label": "730",
 		"view": "wide"
 	},
@@ -13,7 +13,7 @@
 		"primary": "Spain",
 		"secondary": "",
 		"href": "#",
-		"img": "//placehold.it/369x360",
+		"img": "/assets/images/destinations/ibiza.jpg",
 		"label": "621",
 		"view": "small"
 
@@ -23,7 +23,7 @@
 		"primary": "Spain",
 		"secondary": "",
 		"href": "#",
-		"img": "//placehold.it/369x360",
+		"img": "/assets/images/destinations/palma-de-mallorka.jpg",
 		"label": "543",
 		"view": "small"
 	},
@@ -32,7 +32,7 @@
 		"primary": "Italy",
 		"secondary": "",
 		"href": "#",
-		"img": "//placehold.it/369x360",
+		"img": "/assets/images/destinations/port-hercules.jpg",
 		"label": "495",
 		"view": "small"
 	},
@@ -41,7 +41,7 @@
 		"primary": "Monaco",
 		"secondary": "",
 		"href": "#",
-		"img": "//placehold.it/369x360",
+		"img": "/assets/images/destinations/portofino.jpg",
 		"label": "402",
 		"view": "small"
 	}

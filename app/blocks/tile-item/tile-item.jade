@@ -1,7 +1,9 @@
 mixin tile-item(data)
 	each item in data
 		+b.A(href= item.href class='tile-item_#{item.view}')&attributes(attributes)
-			+e.IMG(src= item.img).image
+			+e.DIV.image
+				img(src= item.img)
+				+e.shadow
 			+e.label= item.label
 			+e.title= item.title
 			+e.primary-text= item.primary

@@ -1,0 +1,12 @@
+include ../links-block/links-block
+include ../social-block/social-block
+include ../subscribe-form/subscribe-form
+mixin footer()
+	+b.FOOTER.footer&attributes(attributes)
+		.container
+			+links-block
+			+links-block
+			+e.feedback
+				+subscribe-form
+				+social-block
+			+links-block

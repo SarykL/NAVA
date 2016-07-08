@@ -1,12 +1,21 @@
-.search-form
-	position relative
-	top 410px
+.subscribe-form
 	display block
 
+	&__label
+		margin-bottom 20px
+		display block
+		font-family 'Raleway'
+		font-size 14px
+		font-weight 700
+		line-height 22px
+		text-transform uppercase
+		color white
+
 	&__request
-		padding-left 30px
-		width 571px
-		height 59px
+		padding-left 20px
+		padding-right 10px
+		width calc(100% - 35.25%)
+		height 42px
 		border none
 		border-radius 5px 0 0 5px
 
@@ -14,27 +23,18 @@
 			font-family 'Raleway'
 			font-size 14px
 			font-weight 400
-			text-transform uppercase
 			color #717171
 
 	&__btn
 		position relative
 		margin-left -6px
-		padding-left 25px
-		width 200px
-		height 60px
+		width 30%
 		font-family 'Raleway'
 		font-size 14px
 		font-weight 700
+		line-height 43px
 		text-transform uppercase
 		color white
 		background-color #e7434e
 		border none
 		border-radius 0 5px 5px 0
-
-		&:before
-			content ''
-			sprite $sailboat
-			position absolute
-			top 22px
-			left 40px

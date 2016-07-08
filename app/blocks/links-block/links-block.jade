@@ -1,0 +1,9 @@
+mixin links-block()
+	+b.links-block&attributes(attributes)
+		+e.SPAN.header: | TOP Lorem ipsum.
+		+e.UL.list
+			+e.item: +e.A(href="#").link: | Lorem ipsum.
+			+e.item: +e.A(href="#").link: | Dolor sit amet.
+			+e.item: +e.A(href="#").link: | Lorem ipsum dolor.
+			+e.item: +e.A(href="#").link: | Adipisicing.
+			+e.item: +e.A(href="#").link: | Lorem ipsum.

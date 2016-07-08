@@ -4,7 +4,7 @@
 		"primary": "Gdańsk, Poland",
 		"secondary": "8 Berths",
 		"href": "#",
-		"img": "//placehold.it/575x340",
+		"img": "/assets/images/boats/delphia47.jpg",
 		"label": "€580 / day ",
 		"view": "half"
 	},
@@ -13,7 +13,7 @@
 		"primary": "Portofino, Italy",
 		"secondary": "12 Berths",
 		"href": "#",
-		"img": "//placehold.it/575x340",
+		"img": "/assets/images/boats/sense55.jpg",
 		"label": "€950 / day ",
 		"view": "half"
 
@@ -23,7 +23,7 @@
 		"primary": "Palma de Mallorca, Spain",
 		"secondary": "10 Berths",
 		"href": "#",
-		"img": "//placehold.it/575x340",
+		"img": "/assets/images/boats/cruiser51.jpg",
 		"label": "€820 / day ",
 		"view": "half"
 
@@ -33,7 +33,7 @@
 		"primary": "Lisbon, Portugal",
 		"secondary": "8 Berths",
 		"href": "#",
-		"img": "//placehold.it/575x340",
+		"img": "/assets/images/boats/cruiser41s.jpg",
 		"label": "€400 / day ",
 		"view": "half"
 	}

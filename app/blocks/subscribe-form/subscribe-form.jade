@@ -1,0 +1,5 @@
+mixin subscribe-form()
+	+b.FORM.subscribe-form&attributes(attributes)
+		+e.LABEL.label: | SUBSCRIBE TO OUR NEWSLETTER
+		+e.INPUT(type='email' placeholder='Your email adress').request
+		+e.BUTTON(type='submit').btn: | SUBSCRIBE
